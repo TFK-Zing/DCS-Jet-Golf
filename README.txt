@@ -14,7 +14,7 @@ There are a few limitations:
 2. If using in single player mode, when first spawning in the F10 menu won't appear. Hop back in the jet or select a different aircraft to then see it, or set your aircraft start time in mission editor to at least 3 seconds after mission start time. 
 3. Only first 20 bomb drops are displayed in the scorecard. 
 4. Munitions that create other munitions (like clusters) will not give good results. 
-5. Scores any drop within 1000m of a target. I have not tested what happens for two targets closer than 1000m together, so suggest you either mod the rangescript to be a smaller radius, or set targets further apart than this. Or take your chances, it might be fine!
+5. Scores any drop within 1000m of a target.
 
 Two fully built missiona is included, and you can just use these straight away. These are:
 1. Bombing range on Caucasus.
