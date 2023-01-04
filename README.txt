@@ -1,4 +1,4 @@
-Readme for DCS Multiplayer Bombing Range / Jet Golf
+#Readme for DCS Multiplayer Bombing Range / Jet Golf
 
 This script allows for up to 30 people to play in multiplayer. It has the following features
 
