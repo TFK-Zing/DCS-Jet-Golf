@@ -34,3 +34,7 @@ To set up your own range:
 
 This has been a fun project to make, and I hope you enjoy it!
 
+Hat tips to:
+Ciribob     the author of the script I built this around.
+Sidekick65  for the range layout for the Caucasus bombing mission.
+Their work greatly appreciated
