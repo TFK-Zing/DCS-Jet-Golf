@@ -206,7 +206,7 @@ function range.eventHandler:onEvent(_eventDCS)
     local status, err = pcall(function(_event)
 
 
-        if _event.id == 20 then --player entered unit  -- changed from 15 = birth
+        if _event.id == 15 then --player entered unit  -- 15 = birth, 20 = took control
 
         --env.info("Player entered unit")
 			if  _event.initiator:getPlayerName() then
@@ -428,7 +428,7 @@ function range.getDirection(_lineofAttack, _point1, _point2)
 	-- env.info(yZone)
 	
 	-- create a bearing as 0-360 from north
-	local _brg = math.atan(xDiff/ yDiff) * (180/3.14) <-- NOTE: the lua math.atan(x[,y]) function observes only the first of the two allowed arguments when used in DCS, which is SUPER FRUSTRATING. 
+	local _brg = math.atan(xDiff/ yDiff) * (180/3.14) -- NOTE: the lua math.atan(x[,y]) function observes only the first of the two allowed arguments when used in DCS, which is SUPER FRUSTRATING. 
 	
 	if xDiff >= 0 and yDiff >= 0 then 
 		_brg = _brg
